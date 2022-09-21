@@ -1,6 +1,6 @@
 Name:           liblockfile
-Version:        1.14
-Release:        3
+Version:        1.17
+Release:        1
 Summary:        Library providing functions to lock standard mailboxes
 License:        GPLv2+ and LGPLv2+
 URL:            https://github.com/miquels/liblockfile
@@ -62,5 +62,8 @@ ldconfig -N -n %{buildroot}/%{_libdir}
 %{_mandir}/man3/{lockfile_create.3*,maillock.3*}
 
 %changelog
+* Fri Jul 29 2022 wenzhiwei <wenzhiwei@kylinos.cn> - 1.17-1
+- Update to 1.17
+
 * Tue Apr 14 2020 huanghaitao <huanghaitao@huawei.com> 1.14-3
 - Package init
